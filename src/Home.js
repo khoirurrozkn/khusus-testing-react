@@ -101,7 +101,7 @@ const Home = () => {
 
         <div id="ulasan" class="bg-[#060D13] flex flex-wrap justify-evenly items-center py-[80px] md:py-[120px] overflow-hidden">
             <div class="w-[90%] xl:w-[40%]">
-                <h1 class="text-[40px] md:text-[60px] xl:text-[70px] font-bold">
+                <h1 class="text-[40px] md:text-[60px] xl:text-[70px] font-bold leading-[110%]">
                 Feedback <span class="text-[40px] md:text-[60px] xl:text-[70px] font-bold text-[#00ffff]">lulusan</span> 
                 </h1>
                 <p class="mt-[10px]">Bagaimana pendapat beberapa lulusan kami dalam mempersiapkan mereka untuk berkarier di instansi pemerintah.</p>
@@ -225,7 +225,7 @@ const Home = () => {
         
         <div id="instruktur" class="flex flex-wrap px-[5%] xl:px-[0px] bg-gradient-to-b from-[#ff0000] to-[#b40707] justify-evenly items-start py-[80px] md:py-[120px] overflow-hidden">
             <div class="relative xl:w-[50%]">
-                <h1 class="relative w-[80%] md:w-auto z-20 text-[40px] md:text-[60px] xl:text-[70px] font-bold text-center leading-[120%] text-start">Instruktur yang <span class="text-[40px] md:text-[60px] xl:text-[70px] font-bold text-[#00ff00]">Siap Membimbingmu</span></h1>
+                <h1 class="relative w-[80%] md:w-auto z-20 text-[40px] md:text-[60px] xl:text-[70px] font-bold text-center leading-[120%] text-start">Instruktur yang <span class="text-[40px] md:text-[60px] xl:text-[70px] font-bold text-[#00ff00]">Siap Mem- bimbingmu</span></h1>
                 <p class="mt-[10px] md:mt-[25px]">Di sini, kamu tidak hanya belajar dari para ahli, kamu belajar dari instruktur yang telah membantu banyak orang sukses dalam memasuki instansi pemerintah.</p>
                 <a href='/galeri' class="w-[220px] flex items-center justify-center mt-[30px] py-[8px] xl:py-[11px] rounded-[15px] shadow-lg bg-[#02FF00] text-black">
                     Instagram
