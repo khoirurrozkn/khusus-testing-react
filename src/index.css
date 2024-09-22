@@ -1,13 +1,79 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    font-family: "Poppins", system-ui;
+    font-weight: 400;
+    color: white;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@media (max-width: 767px) {
+    body {
+        
+    }
 }
+
+@media (min-width: 768px) {
+    body {
+        font-size: 23px;
+    }
+}
+
+@media (min-width: 1280px) {
+    body {
+        font-size: 19px;
+    }
+}
+
+.bubble-1{
+    background-image: 
+        radial-gradient(circle at 17% 15%, #841b2d 1%, #721928 5%, transparent 0),
+        radial-gradient(circle at 93% 34%, #e9a4a4 0.5%, #ce9393 2%, transparent 0),
+        radial-gradient(circle at 83% 85%, #cb6d6d 1%, #b86666 4%, transparent 0);
+}
+
+.bubble-2{
+    background-image:
+        radial-gradient(circle at 50% 50%, #9d0909 0%, transparent 60%, transparent 0);
+}
+
+.bubble-3{
+    background-image: 
+        radial-gradient(circle at 25% 20%, #841b2d 4%, #721928 10%, transparent 0),
+        radial-gradient(circle at 89% 85%, #e9a4a4 3%, #ce9393 8%, transparent 0),
+        radial-gradient(circle at 96% 25%, #cb6d6d 1%, #b86666 3%, transparent 0);
+}
+
+.bubble-4{
+    background-image: 
+        radial-gradient(circle at 25% 85%, #841b2d 3%, #721928 10%, transparent 0),
+        radial-gradient(circle at 10% 25%, #e9a4a4 1%, #ce9393 3%, transparent 0);
+}
+
+.bubble-5{
+    background-image: 
+        radial-gradient(circle at 85% 70%, #cb6d6d 3%, #b86666 9%, transparent 0);
+}
+
+.bubble-6{
+    background-image: 
+        radial-gradient(circle at 12% 80%, #841b2d 3%, #721928 7%, transparent 0),
+        radial-gradient(circle at 76% 13%, #e9a4a4 2%, #ce9393 5%, transparent 0),
+        radial-gradient(circle at 20% 40%, #cb6d6d 0.5%, #b86666 3%, transparent 0);
+}
+
+.text-shadow {
+                    /* text-shadow: 10px 2px 0px #b40707; */
+                    text-shadow: 
+                        7px 7px 0 #9d0909,
+                        7px 0px 0 #9d0909,
+                        -7px -7px 0 #9d0909,
+                        -7px -0px 0 #9d0909,
+                        7px -7px 0 #9d0909,
+                        -7px 7px 0 #9d0909,
+                        -0px 7px 0 #9d0909;
+                }
